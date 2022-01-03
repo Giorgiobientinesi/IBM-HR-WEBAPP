@@ -1,9 +1,6 @@
 import pickle
-import datetime as dt
 import streamlit as st
 import pandas as pd
-from scipy import stats
-import numpy as np
 
 loaded_model = pickle.load(open("Logistic_Regression_AI1.sav", 'rb'))
 #TITLE OF THE WEB APP
